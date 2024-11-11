@@ -1,0 +1,1016 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TT Hoves";
+}
+
+section {
+    padding: 0 calc(24px + (121-24) * ((100vw - 375px) / (1280 - 375)));
+
+}
+
+.logo {
+    width: 295;
+    margin-bottom: 85px;
+
+}
+
+.info {
+    display: flex;
+    gap: 30px 161px;
+    flex-wrap: wrap;
+
+}
+
+.title {
+    font-size: 21px;
+    font-family: "TT Hoves", sans-serif;
+}
+
+.subtitle {
+    font-size: 21px;
+    font-weight: 700;
+    font-family: "TT Hoves";
+}
+
+h1 {
+    font-size: 80px;
+    font-family: "Chava";
+}
+
+.description {
+    font-size: 27px;
+    max-width: 930px;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+.btn_wrapper {
+    display: flex;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 328px;
+    cursor: pointer;
+    padding: 20px 0;
+    border-radius: 12px;
+    border: 2px solid #6E3ABA;
+    background-color: #6E3ABA;
+    color: white;
+    font-size: 18px
+}
+
+
+button.secondary {
+    color: #6500a4;
+    background-color: white;
+
+}
+
+#hello {
+    background-image: url('./img/html_css_js\ 1.png');
+    background-repeat: no-repeat;
+    background-position: top 121px right 58px;
+    background-size: 30vw;
+}
+
+
+
+section {
+    padding: calc(24px + (121 - 24) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.face {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-bottom: 61px;
+
+
+
+
+}
+
+
+.face_down {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+
+
+
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    margin-bottom: 41px;
+    text-transform: uppercase;
+
+
+
+    font-family: "TT Hoves";
+    gap: 100px;
+}
+
+
+.description {
+    gap: 70px;
+    font-family: "TT Hoves";
+}
+
+h3 {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: "TT Hoves";
+
+
+}
+
+.emoji {
+    width: 192px;
+
+
+}
+
+
+
+
+
+
+
+
+.purpleBg {
+    background-color: #6E3ABA;
+
+
+}
+
+section.purpleBg {
+    text-align: center;
+    padding-top: calc(40px + (80-40) * ((100vw - 375px) / (1280 -375)));
+    padding-bottom: calc(41px + (88-40) * ((100vw - 375px) / (1280 - 375)));
+
+
+}
+
+
+
+.sale {
+    font-size: calc(34px + (52-34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+    line-height: 117%;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 52px;
+
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(20px + (57-20) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(20px + (57-20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.timerElem .value {
+    font-family: 'Chava';
+    font-size: calc(60px + (174 - 60) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 107%;
+    color: #2f1d4E;
+
+
+}
+
+
+
+.timerElem .desc {
+    font-size: calc(10px + (27-10) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 118%;
+    color: #2f1d4E;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.flex-container {
+    display: flex;
+    min-height: 100vh;
+
+    flex-wrap: wrap;
+    gap: 120px;
+
+
+
+
+}
+
+.flex-item {
+    width: 50%;
+    max-width: 450px;
+
+
+
+
+
+}
+
+h2 {
+    font-size: calc(34px + (58-34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+
+
+}
+
+h3 {
+    font-size: calc(18px + (27-18) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 90px;
+
+
+}
+
+
+.description {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+h2 {
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 107%;
+
+
+}
+
+.bio {
+    margin-top: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+    display: flex;
+    gap: 20px 50px;
+    flex-wrap: wrap;
+
+
+
+}
+
+.coolTeacher {
+    flex-basis: 240px;
+    flex-grow: 1;
+    max-width: 350px;
+
+}
+
+.coolTeacher img {
+
+    width: 100%;
+
+
+}
+
+.bioText {
+
+    flex-basis: 340px;
+    flex-grow: 3;
+    font-family: "TT Hoves";
+
+}
+
+h4 {
+
+    font-size: calc(38px + (48 - 38) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+    line-height: 121%;
+    font-family: "TT Hoves";
+
+
+
+
+}
+
+
+.bioText p {
+
+
+
+
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 20px;
+    margin-bottom: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+
+
+
+
+}
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+
+.exp {
+    width: calc(156px + (250 - 156) * ((100vw - 375px) / (1280 - 375)));
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+
+
+.exp img {
+    width: 36px;
+
+
+}
+
+.exp span {
+
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+
+    line-height: 140%;
+    font-family: "TT Hoves";
+
+}
+
+
+.diploma {
+    display: grid;
+    grid-template-columns: calc(330px + (430 - 330) * ((100vw - 375px) / (1280 - 375))) 1fr;
+    grid-template-rows: auto auto;
+    gap: 19px;
+
+}
+
+.diploma img {
+    width: 100%;
+
+    grid-row: 1 / 3;
+   
+
+
+}
+
+.diploma p {
+
+    font-family: "TT Hoves";
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 140%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cash {
+
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 140%;
+    font-family: "TT Hoves";
+
+
+}
+
+.screen img {
+    width: 100%;
+    margin-top: 36px;
+
+
+}
+
+.price {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+.aboutUs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 100px;
+
+    align-items: end;
+
+
+
+
+
+}
+
+.aboutUs h5 {
+    font-size: calc(22px + (27 - 22) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    font-family: "TT Hoves";
+
+    grid-row: 2/3;
+
+}
+
+.stat {
+
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+    line-height: 118%;
+    font-family: "TT Hoves";
+
+
+}
+
+span {
+
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    ;
+    line-height: 140%;
+
+}
+
+
+
+.programBorder {
+
+    border: 2px solid black;
+    padding-top: calc(40px + (80- 40) * ((100vw - 375px) / (1280 - 375)));
+    padding-bottom: calc(23px + (35 - 23) * ((100vw - 375px) / (1280 - 375)));
+    padding-right: calc(20px + (60 - 20) * ((100vw - 375px) / (1280 - 375)));
+    padding-left: calc(20px + (60 - 20) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: 30px;
+    position: relative;
+
+
+
+
+}
+
+.lessons {
+    list-style-type: none;
+    margin-top: calc(24px + (44 - 24) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(0px + (34 - 0) * ((100vw - 375px) / (1280 - 375)));
+
+    font-family: "TT Hoves";
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+
+}
+
+
+.lesson {
+    padding: 24px 0;
+    border-bottom: 1px solid #A1A1A1;
+
+}
+
+
+.programBorder h2 {
+    margin-top: 80px;
+
+}
+
+.program button {
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none !important;
+
+}
+
+
+#corner {
+    width: calc(35px + (100 - 35) * ((100vw - 375px) / (1280 - 375)));
+    position: absolute;
+    top: -2px;
+    right: -2px;
+
+
+
+
+
+}
+
+.reviews-section h2{
+    margin-bottom: 40px;
+}
+
+
+
+
+.reviews-section {
+   padding-left: 120px;
+    
+    
+}
+
+.reviews-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.review-card {
+    background-color: #F0F7FD;
+    border-radius: 8px;
+    padding: 20px;
+    width: 335px;
+    height: 484px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 120px;
+   
+}
+
+
+
+
+
+.icon {
+    font-size: 24px;
+    color: #555;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.review-card p {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #222222;
+    line-height: 140%;
+    flex-grow: 1; 
+    width: 225px;
+}
+
+.student-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 44px; 
+    
+}
+.student-info img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+.student-info span {
+    display: block;
+    width: 400px;
+    font-size: 21px;
+    margin-left: 16px;
+}
+ 
+
+
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.expectations h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+ .gifts p {
+  font-family: "TT Hoves";
+font-size: 21px;
+font-weight: 400;
+line-height: 140%;
+margin-bottom: 25px;
+
+
+
+
+
+}
+.gift-image {
+    width: 579px;
+height:354;
+
+
+}
+.gifts{
+
+text-align: left;
+margin-top: 90px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pix {
+    width: 340px;
+    height: 330px;
+}
+
+
+.pix2 {
+    width: 340px;
+    height: 330px;
+
+}
+
+.splide-text {
+
+
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 400;
+    line-height: 140%;
+    padding-right: calc(23px + (412 - 23) * ((100vw - 375px) / (1280 - 375)));
+
+
+
+
+}
+
+.splide {
+    padding-left: 0px;
+    padding-top: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    background-color: #222222;
+
+}
+
+.left-side h2 {
+    color: #FFFFFF;
+    width: 424px;
+    margin-bottom: 79px;
+}
+
+.left-side li {
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+.form-user {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.right-side {
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 12px;
+    width: 475px;
+    height: 600px;
+    position: relative;
+
+
+
+}
+
+.left-side li {
+    font-family: "TT Hoves";
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 400;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.left-side {
+    margin-bottom: calc(24px + (120 - 24) * ((100vw - 375px) / (1280 - 375)));
+}
+
+
+.left-side ul{
+    gap: 24px;
+    display: flex;
+    flex-direction:column;
+}
+
+.left-side img {
+    width: 28px;
+    height: 28px;
+    margin-right: 20px;
+
+
+}
+
+.right-side h4 {
+    font-family: "TT Hoves";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 116%;
+    text-transform: uppercase;
+    margin-top: 60px;
+    
+}
+
+.right-side p {
+
+
+    font-family: "TT Hoves";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 138%;
+    text-align: center;
+
+}
+
+.contact-info {
+    font-family: "TT Hoves";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 116%;
+    color: #948e8e;
+    margin-top: 41px;
+    margin-bottom: 10px;
+    
+
+}
+
+.contacts {
+    font-family: "TT Hoves";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 116%;
+    color: #948e8e;
+
+
+}
+.application-form input[type="text"],
+.application-form .phone-field input[type="tel"] {
+    width: 76%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    color: #b0a6a6;
+    outline: none;
+    box-sizing: border-box;
+    font-weight: 400px;
+   
+}
+label {
+    font-family: "TT Hoves";
+font-size: 20px;
+font-weight: 400;
+line-height: 117%;
+
+
+
+}
+
+
+.discount-badge {
+    position: absolute;
+    top: -49px;
+    left: -74px;
+    background-color: #6a0dad;
+    color: white;
+    font-size: 63px;
+    padding: 9px 3px;
+    border-radius: 50%;
+    text-align: center;
+    width: 120px;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 22px;
+    
+    
+    
+    
+}
+
+.discount-sale {
+    position: absolute;
+    top: -49px;
+    left: 300px;
+    background-color: #6a0dad;
+    color: white;
+    font-size: 63px;
+    padding: 9px 3px;
+    border-radius: 50%;
+    text-align: center;
+    width: 120px;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 22px;
+    
+    
+}
+
+
+
+
+.discount-badge {
+    display: block;
+    margin: 0;
+    
+
+
+}
+
+
+.discount-sale {
+    display: none !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:710px) {
+
+    .aboutUs {
+        grid-template-columns: 1fr;
+
+    }
+
+    .diploma {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+
+    .diploma img {
+        grid-row: 2/3;
+    }
+
+    .desktop {
+        display: none !important;
+
+    }
+
+    .mobile {
+        display: block !important;
+
+    }
+
+    .lesson :last-child {
+
+        border: 0;
+    }
+    .discount-badge{
+        display: none !important;
+    }
+    .discount-sale {
+        display: block !important;
+    }
+
+.content {
+    flex-direction: column;
+    align-items:center;
+}
+.gift-image {
+    width: 406px;
+    
+}
+.discount-sale {
+    left: 290px;
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+/*padding по  calc,удалить 160px,разрешение дисплея ограничено из-за падинга
+ полсденяя картинка адаптация должна рабоать после width 100%
